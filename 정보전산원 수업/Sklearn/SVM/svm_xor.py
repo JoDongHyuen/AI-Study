@@ -6,6 +6,7 @@ xor_input = [[0, 0, 0], [0, 1, 1], [1, 0, 1], [1, 1, 0]]
 
 # 데이터 분류
 xor_df = pd.DataFrame(xor_input)
+# print(xor_df)
 xor_data = xor_df.iloc[:, 0:2]
 # print(xor_data)
 xor_label = xor_df.iloc[:, 2]
